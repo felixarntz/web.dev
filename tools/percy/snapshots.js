@@ -21,6 +21,10 @@ const pagesToTest = [
     url: "about",
     title: "About page",
   },
+  {
+    url: "codelab-avoid-invisible-text",
+    title: "Test codelab page",
+  },
 ];
 
 // A script to navigate our app and take snapshots with Percy.
@@ -29,7 +33,7 @@ PercyScript.run(
     for (page of pagesToTest) {
       await browser.goto(`http://localhost:8080/${page.url}`);
       await browser.evaluate(scrollToBottom);
-      await browser.waitFor(2000);
+      await browser.waitFor(5000);
       await percySnapshot(`${page.title}`);
     }
   },
