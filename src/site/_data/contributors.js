@@ -15,6 +15,23 @@ const contributors = {
       en: "Human boy working on web standards at Google",
     },
   },
+  felixarntz: {
+    name: {
+      given: "Felix",
+      family: "Arntz",
+    },
+    org: {
+      name: "Google",
+      unit: "Developer Relations",
+    },
+    country: "US",
+    homepage: "https://felix-arntz.me",
+    twitter: "felixarntz",
+    description: {
+      en:
+        "Developer Programs Engineer in the Content Experience team at Google",
+    },
+  },
   pbakaus: {
     name: {
       given: "Paul",
@@ -834,6 +851,23 @@ const contributors = {
     description: {
       en:
         "PJ is a Product Manager on the Chrome Web Platform team responsible for Chrome permissions, notifications, and progressive web apps.",
+    },
+  },
+  albertomedina: {
+    name: {
+      given: "Alberto",
+      family: "Medina",
+    },
+    org: {
+      name: "Google",
+      unit: "Developer Relations",
+    },
+    country: "US",
+    homepage: "https://medinathoughts.com",
+    twitter: "ialbmedina",
+    description: {
+      en:
+        "Developer Advocate in the Content Experience team at Google",
     },
   },
   developit: {
