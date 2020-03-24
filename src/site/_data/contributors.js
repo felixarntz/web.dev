@@ -866,8 +866,7 @@ const contributors = {
     homepage: "https://medinathoughts.com",
     twitter: "ialbmedina",
     description: {
-      en:
-        "Developer Advocate in the Content Experience team at Google",
+      en: "Developer Advocate in the Content Experience team at Google",
     },
   },
   developit: {
