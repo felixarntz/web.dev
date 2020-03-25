@@ -869,22 +869,6 @@ const contributors = {
         "PJ is a Product Manager on the Chrome Web Platform team responsible for Chrome permissions, notifications, and progressive web apps.",
     },
   },
-  albertomedina: {
-    name: {
-      given: "Alberto",
-      family: "Medina",
-    },
-    org: {
-      name: "Google",
-      unit: "Developer Relations",
-    },
-    country: "US",
-    homepage: "https://medinathoughts.com",
-    twitter: "ialbmedina",
-    description: {
-      en: "Developer Advocate in the Content Experience team at Google",
-    },
-  },
   developit: {
     name: {
       given: "Jason",
