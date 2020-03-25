@@ -47,6 +47,19 @@ date: 2018-11-05
   </section>
   <section class="w-grid">
     <div class="w-grid__columns w-grid__columns--gapless w-grid__columns--three">
+      <h3 id="contentmanagementsystems" class="w-learn-heading">
+        Content Management Systems
+        <a class="w-headline-link" href="#contentmanagementsystems" aria-hidden="true">#</a>
+      </h3>
+    </div>
+    <div class="w-grid__columns w-grid__columns--gapless w-grid__columns--three" role="list">
+      {% for contentmanagementsystem in learn.contentmanagementsystems %}
+        {% PathCard contentmanagementsystem, lang %}
+      {% endfor %}
+    </div>
+  </section>
+  <section class="w-grid">
+    <div class="w-grid__columns w-grid__columns--gapless w-grid__columns--three">
       <h3 id="lighthouse" class="w-learn-heading">
         Lighthouse
         <a class="w-headline-link" href="#lighthouse" aria-hidden="true">#</a>

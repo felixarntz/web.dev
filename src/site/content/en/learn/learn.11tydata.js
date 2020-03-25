@@ -12,6 +12,8 @@ const metrics = require("../metrics/metrics.11tydata.js").path;
 const react = require("../react/react.11tydata.js").path;
 const angular = require("../angular/angular.11tydata.js").path;
 
+const wordpress = require("../wordpress/wordpress.11tydata.js").path;
+
 const lighthousePerformance = require("../lighthouse-performance/lighthouse-performance.11tydata.js")
   .path;
 const lighthousePwa = require("../lighthouse-pwa/lighthouse-pwa.11tydata.js")
@@ -44,6 +46,8 @@ module.exports = function() {
 
   const frameworks = [react, angular].filter(livePaths);
 
+  const contentmanagementsystems = [wordpress].filter(livePaths);
+
   const audits = [
     lighthousePerformance,
     lighthousePwa,
@@ -56,6 +60,7 @@ module.exports = function() {
     learn: {
       paths,
       frameworks,
+      contentmanagementsystems,
       audits,
     },
   };
