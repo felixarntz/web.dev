@@ -32,6 +32,23 @@ const contributors = {
         "Developer Programs Engineer in the Content Experience team at Google",
     },
   },
+  albertomedina: {
+    name: {
+      given: "Alberto",
+      family: "Medina",
+    },
+    org: {
+      name: "Google",
+      unit: "Developer Relations",
+    },
+    country: "US",
+    homepage: "https://medinathoughts.com",
+    twitter: "ialbmedina",
+    description: {
+      en:
+        "Developer Relations Engineer at Google",
+    },
+  },
   pbakaus: {
     name: {
       given: "Paul",
