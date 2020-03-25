@@ -45,7 +45,7 @@ A key fact to remember about conversion funnels is that a **successful Conversio
 </figure>
 
 ## Success Factors
-If we look “under the hood” into what we need to achieve at each stage of the conversion funnel, we can identify a set of underlying factors that are essential to our success. We call these **Success Factors**.
+If we look 'under the hood' into what we need to achieve at each stage of the conversion funnel, we can identify a set of underlying factors that are essential to our success. We call these **Success Factors**.
 
 ### Acquisition
 
