@@ -45,8 +45,7 @@ const contributors = {
     homepage: "https://medinathoughts.com",
     twitter: "ialbmedina",
     description: {
-      en:
-        "Developer Relations Engineer at Google",
+      en: "Developer Relations Engineer at Google",
     },
   },
   pbakaus: {
