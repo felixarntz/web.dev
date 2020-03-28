@@ -78,10 +78,11 @@ The good news, is that the web platform has been evolving steadily and rapidly, 
   </table>
 </div>
 
-
 {% Aside %}
-
+Please follow the links above to learn more about each of the workstreams and how together they describe the reality of the web just being another platform on which we can successfully develop and deploy our online business presence.
 {% endAside %}
+
+Two of these work areas are of interest when we seek to answer the question: how do we develop web sites that are feature rich and integrated when out target audience has global reach?: Fugu and PWA.
 
 ## Fugu and WordPress
 
@@ -90,6 +91,10 @@ The good news, is that the web platform has been evolving steadily and rapidly, 
 
 ## PWA and WordPress
 The second part of our approach to bringing Progressive Web Development into WordPress consists of integrating modern web APIs and capabilities into the WordPress core platform. We want the WordPress platform to support natively things such as: Service Workers, Offline access, Streaming, background sync, etc. The goal of such integration is to provide a consistent and unified approach for WordPress developers to easily access these APIs and capabilities as they develop core functionality, as well as themes or plugins.
+
+{% Aside  %}
+Today, the web platform supports (pretty much) everything provided by native app platforms, while maintaining its core tenets of openness, security, privacy, trust, and universal reach.
+{% endAside %}
 
 
 [collection]: /wordpress
