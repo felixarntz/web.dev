@@ -3,6 +3,7 @@ layout: post
 title: Feature Richness and Integration, in context
 authors:
   - albertomedina
+hero: hero.jpg
 subhead: |
   Building feature-rich and integrated apps at global scale.
 date: 2020-03-24
@@ -84,6 +85,32 @@ Please follow the links above to learn more about each of the workstreams and ho
 
 Two of these work areas are of interest when we seek to answer the question: how do we develop web sites that are feature rich and integrated when out target audience has global reach?: Fugu and PWA.
 
+## Developing for the Web Platform
+
+The web platform today support pretty much everything provided by native app platforms. We can develop user experiences natively on the web that are feature-rich, engaging, and integrated with the devices from our users, while at the same time maintaining the core web tenets of openness, security, privacy, trust, and universal reach. Developing these experiences encompasses two areas:
+
+<div class="w-table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td><b>Web platform capabilities</b></td>
+        <td>
+          TBD.
+        </td>
+      </tr>
+      <tr>
+        <td><b>User-first Mindset</b></td>
+        <td>TBD</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+{% Aside  %}
+Today, the web platform supports (pretty much) everything provided by native app platforms.
+{% endAside %}
+
+
 ## Fugu and WordPress
 
 * Lazy loading
@@ -92,9 +119,6 @@ Two of these work areas are of interest when we seek to answer the question: how
 ## PWA and WordPress
 The second part of our approach to bringing Progressive Web Development into WordPress consists of integrating modern web APIs and capabilities into the WordPress core platform. We want the WordPress platform to support natively things such as: Service Workers, Offline access, Streaming, background sync, etc. The goal of such integration is to provide a consistent and unified approach for WordPress developers to easily access these APIs and capabilities as they develop core functionality, as well as themes or plugins.
 
-{% Aside  %}
-Today, the web platform supports (pretty much) everything provided by native app platforms, while maintaining its core tenets of openness, security, privacy, trust, and universal reach.
-{% endAside %}
 
 
 [collection]: /wordpress
