@@ -35,6 +35,9 @@ const tags = {
   "chrome-dev-summit": {
     title: "Chrome Dev Summit",
   },
+  cms: {
+    title: "CMS",
+  },
   "content-security-policy": {
     title: "Content Security Policy",
   },
@@ -184,6 +187,9 @@ const tags = {
   },
   webxr: {
     title: "WebXR",
+  },
+  wordpress: {
+    title: "WordPress",
   },
 };
 
