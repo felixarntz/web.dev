@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Feature Richness and Integration
+title: Feature Richness in Context
 authors:
   - albertomedina
 hero: hero.jpg

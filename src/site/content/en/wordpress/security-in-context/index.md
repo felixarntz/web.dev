@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Security in context
+hero: hero.jpg
 authors:
   - albertomedina
 subhead: |

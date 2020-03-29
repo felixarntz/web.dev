@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Success on the web, in context
+title: Success as a Web Content Creator in Context
 authors:
   - albertomedina
 hero: hero.jpg
