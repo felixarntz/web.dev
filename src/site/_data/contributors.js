@@ -28,8 +28,7 @@ const contributors = {
     homepage: "https://felix-arntz.me",
     twitter: "felixarntz",
     description: {
-      en:
-        "Developer Programs Engineer in the Content Experience team at Google",
+      en: "Developer Relations Engineer at Google",
     },
   },
   albertomedina: {
@@ -44,6 +43,22 @@ const contributors = {
     country: "US",
     homepage: "https://medinathoughts.com",
     twitter: "ialbmedina",
+    description: {
+      en: "Developer Relations Engineer at Google",
+    },
+  },
+  pascalbirchler: {
+    name: {
+      given: "Pascal",
+      family: "Birchler",
+    },
+    org: {
+      name: "Google",
+      unit: "Developer Relations",
+    },
+    country: "US",
+    homepage: "https://pascalbirchler.com/",
+    twitter: "swissspidy",
     description: {
       en: "Developer Relations Engineer at Google",
     },
