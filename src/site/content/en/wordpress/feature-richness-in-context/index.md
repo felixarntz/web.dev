@@ -10,6 +10,8 @@ date: 2020-03-24
 tags:
   - post
   - cms
+  - pwa
+  - fugu
 ---
 
 In our previous [post](http://web.dev/success-on-the-web-in-context/) we discussed the correlation between building user-first sites, and our ability to attain sustainable success as content creators and publishers. User-first sites are sites that have the following qualities:
@@ -205,7 +207,19 @@ And then we have the PWA capabilities, that is, the features and added value we 
   </table>
 </div>
 
+Putting these two aspects together, we arrive at the notion of PWA, which can be described as applications developed for the open Web, a universal application platform. The characteristics of PWAs include:
 
+* <b>Can run on</b> any device
+* <b>Low friction</b> for users to open and use them, but they also can be installed on their devices, making it easy for users to re-engage with them
+* Can be accessed and run from a browser, but they also <b>can be run from an application launcher</b>
+* <b>Are linkable</b>, which makes it very easy to distribute and share
+* <b>Can be run on a tab</b>, but they also can have their own dedicated window, which is not associated with any underlying browser application
+* Operate at its best on capable and reliable networks, but <b>degrade gracefully</b> in the case of lost connectivity or unreliable networks
+* All capabilitites <b>run natively on the web</b> and provide <b>full integration</b> with the capabilities of the devices they run on
+
+{% Aside 'objective' %}
+The capabilities of the web platform enable nowadays the development of web experiences (PWAs) similar to experiences developed for native app paltforms.
+{% endAside %}
 
 ## PWA and WordPress
 

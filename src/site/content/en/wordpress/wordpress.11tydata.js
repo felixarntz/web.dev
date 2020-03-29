@@ -25,8 +25,8 @@ module.exports = {
       {
         title: "Performance and usability",
         pathItems: [
-            "performance-and-usability-in-context",
-            "wordpress-caching"
+          "performance-and-usability-in-context",
+          "wordpress-caching",
         ],
       },
       {
