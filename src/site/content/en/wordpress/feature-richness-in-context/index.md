@@ -12,6 +12,7 @@ tags:
   - cms
   - pwa
   - fugu
+  - capabilities
 ---
 
 In our previous [post](http://web.dev/success-on-the-web-in-context/) we discussed the correlation between building user-first sites, and our ability to attain sustainable success as content creators and publishers. User-first sites are sites that have the following qualities:

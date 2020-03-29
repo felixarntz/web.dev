@@ -7,6 +7,10 @@ authors:
 subhead: |
   This is the tagline of the article
 date: 2020-03-24
+tags:
+  - post
+  - cms
+  - security
 ---
 
 This is the content of the article.

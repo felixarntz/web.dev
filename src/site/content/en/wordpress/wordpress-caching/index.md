@@ -5,7 +5,7 @@ authors:
   - albertomedina
 hero: hero.jpg
 subhead: |
-  .
+  Caching is a de-facto common denominator in high performance systems.
 date: 2020-03-24
 tags:
   - post
@@ -48,6 +48,10 @@ There are different kinds of caching, with different purposes and impact, depend
 </div>
 
 WordPress site owners can leverage caching mechanisms either via plugins installed on their sites, or by using mechanisms available from their hosting provider. There are many options on both sides. Below are pointers to some of the most salient hosting provider options available, and some of the main caching plugins available in the ecosystem.
+
+## Relevant Information Sources
+
+* Caching article in WordPress.org ([link](https://wordpress.org/support/article/optimization-caching/))
 
 
 [collection]: /wordpress

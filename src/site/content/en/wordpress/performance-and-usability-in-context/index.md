@@ -12,6 +12,8 @@ tags:
   - cms
   - performance
 ---
+{% Banner 'caution' %}Work in progress.{% endBanner %}
+
 Nikalus Wirth wrote a paper back in 1995 issuing a [Plea for Lean Software](https://dl.acm.org/doi/10.1109/2.348001). He starts by stating a fact that has remained true in the desktop world since then: Memory requirements of workstations typically jump substantially whenever there is a new software release. When demand surpasses capacity, it is time to buy add-on memory; when the system has no more extensibility it is time to buy a new, more powerful workstation.  And then he poses the question: Do increased performance and functionality keep pace with the increased demand for resources? Mostly the answer is no. Today, 25 years later, we have a seemingly completely different reality, but we still can observe a similar reality: attaining consistently high performance in the mobile web is challenging.
 
 {% Aside %}
@@ -83,7 +85,7 @@ Users hate bad performance. A [recent survey](https://www.thinkwithgoogle.com/in
     <tbody>
       <tr>
         <td><bold>Lab vs. Real-user measurements<bold></td>
-        <td>When we develop for the web, we are targetting sa global audience</td>
+        <td>When we develop for the web, we are developing for a global audience. We must evaluate the performance of our sites, under conditions that resemble as much as possible the conditions that would be experiences for iur users.</td>
       </tr>
       <tr>
         <td>User-first performance metrics</td>
@@ -96,5 +98,10 @@ Users hate bad performance. A [recent survey](https://www.thinkwithgoogle.com/in
     </tbody>
   </table>
 </div>
+
+## Relevant Information Sources
+
+* Optimization article in WordPress.org ([link](https://wordpress.org/support/article/optimization/))
+
 
 [collection]: /wordpress
