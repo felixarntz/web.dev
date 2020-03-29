@@ -162,4 +162,18 @@ As content creators, we should be focusing mainly on defining our content strate
 
 In the rest of Section, you can explore more about the different stages of the conversion funnel, and get a sense of the technical implications to achieving all of them in a cost-effective way.
 
+## Relevant Information Sources
+
+<div class="w-table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="https://www.thinkwithgoogle.com/intl/en-gb/advertising-channels/mobile/your-mobile-first-transformation-handbook/">Your Mobile-first Transformation Handbook</a></td>
+        <td>Handbook from <a href="https://www.thinkwithgoogle.com/">ThinkWithGoogle.com</a> about helping organisations that want to transform their mobile presence to benefit their users.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
 [collection]: /wordpress
