@@ -5,7 +5,7 @@ hero: hero.jpg
 authors:
   - albertomedina
 subhead: |
-  This is the tagline of the article
+  We want to build sites our users trust.
 date: 2020-03-24
 tags:
   - post
@@ -13,6 +13,8 @@ tags:
   - security
 ---
 
-This is the content of the article.
+## Relevant Information Sources
+
+* [Web Security -- MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Security)
 
 [collection]: /wordpress
