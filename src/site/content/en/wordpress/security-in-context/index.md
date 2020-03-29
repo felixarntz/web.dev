@@ -15,6 +15,17 @@ tags:
 
 ## Relevant Information Sources
 
-* [Web Security -- MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Security)
+<div class="w-table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="https://developer.mozilla.org/en-US/docs/Web/Security">Web Security [MDN Web] Docs</a></td>
+        <td>
+          Compilation of web security oriented articles providing information that may help you secure your site and its code from attacks and data theft.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 [collection]: /wordpress

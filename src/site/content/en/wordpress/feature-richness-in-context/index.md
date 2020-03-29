@@ -234,4 +234,31 @@ There is a feature plugin developed by Google and WordPress ecosystem cotributor
 You can download the PWA Feature Plugin from <a href="https://wordpress.org/plugins/pwa/">WordPress.org</a>, and you can follow the development of the plugin in <td><a href="https://github.com/GoogleChromeLabs/pwa-wpGithub">Github</a>.
 
 
+## Relevant Information Sources
+
+<div class="w-table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="">Fugu</a></td>
+        <td>
+          .
+        </td>
+      </tr>
+      <tr>
+        <td><a href="">PWA</a></td>
+        <td>
+          .
+        </td>
+      </tr>
+      <tr>
+        <td><a href="https://www.awwwards.com/PWA-ebook-vol2/">Awwards PWA eBook</a></td>
+        <td>
+          PWA: The Superpowers of the Web and Native Apps Combined.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 [collection]: /wordpress
