@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Performance and Usability in Context
+title: Performance in Context
 hero: hero.jpg
 authors:
   - albertomedina

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Success as a Web Content Creator in Context
+title: Success on the Web in Context
 authors:
   - albertomedina
 hero: hero.jpg
@@ -128,7 +128,7 @@ In order to **achieve success in a sustainable way**, we need to have a healthy 
 * We must have **features and capabilities** in our sites that make it easy for users to come back to us; for example (e.g. A2HS, Push notifications)
 * And we also need to **monitor** the behavior of our sites and users in the wild, and seek answers to questions such as: Are we seeing higher bounce rates on some parts of our sites?; What kind of content is performing better?; Should we try a different content layout?
 
-## Revenue and Sustainability
+## The Revenue Equation
 
 In order to nail down all the described  success factors, we must invest financial resources on development, maintenance, advertising, SEO, monetization, performance enhancements, etc. Depending on our organization (individual or business), we may have resources to cover only some of the required success factors. But if we do not account for all of them, then our chances of success will be diminished. Our sustainability as publishers and content creators requires that we optimize the Revenue Equation.
 
@@ -146,7 +146,7 @@ Where:
 * **Gross Income**, generated from our monetization strategies we can have in our sites: Ads, subscriptions, donations, or e-commerce
 * **Expenses**, encompassing all financial investment for design, development, implementing monetization campaigns and SEO strategies, etc.
 
-## What's next?
+## Sustainable Success
 
 Achieving  successful conversion funnels entails tackling many complex problems. 
 
@@ -158,18 +158,22 @@ Achieving  successful conversion funnels entails tackling many complex problems.
   </figcaption>
 </figure>
 
-As content creators, we should be focusing mainly on defining our content strategy and producing our content. But instead, we have to do that, while also having to deal with all the other aspects needed to have a fair shot at success. 
+As content creators, we should be focusing mainly on defining our content strategy and producing our content. But instead, we have to do that, while also having to deal with all the other aspects needed to have a fair shot at success. No wonder why so many sites struggle with performance, usability, accessibility, monetization, and other aspects that are key for great user experiencens and generate enough sustainable revenue.
 
-In the rest of Section, you can explore more about the different stages of the conversion funnel, and get a sense of the technical implications to achieving all of them in a cost-effective way.
+The good news is that we can look at success in terms of the components that make it possible, and then nail down the requirements for each of those components in a *cost effective way*. 
+
+## What is Next?
+
+How do we go about nailing down the requirements for each *success factor* cost effectively in WordPress? In the rest of the WordPress Section, we will explore a bit more and try to answer at least part of this question.
 
 ## Relevant Information Sources
 
 <div class="w-table-wrapper">
-  <table>
+  <table>https://wordpress.com/support/        
     <tbody>
       <tr>
-        <td><a href="https://www.thinkwithgoogle.com/intl/en-gb/advertising-channels/mobile/your-mobile-first-transformation-handbook/">Your Mobile-first Transformation Handbook</a></td>
-        <td>Handbook from <a href="https://www.thinkwithgoogle.com/">ThinkWithGoogle.com</a> about helping organisations that want to transform their mobile presence to benefit their users.</td>
+        <td><a href=""></a></td>
+        <td>.</td>
       </tr>
     </tbody>
   </table>

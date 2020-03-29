@@ -20,7 +20,10 @@ module.exports = {
     topics: [
       {
         title: "Success factors",
-        pathItems: ["success-on-the-web-in-context"],
+        pathItems: [
+          "success-on-the-web-in-context",
+          "success-in-cms-wordpress"
+        ],
       },
       {
         title: "Performance and usability",
