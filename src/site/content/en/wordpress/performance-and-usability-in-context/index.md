@@ -101,7 +101,19 @@ Users hate bad performance. A [recent survey](https://www.thinkwithgoogle.com/in
 
 ## Relevant Information Sources
 
-* Optimization article in WordPress.org ([link](https://wordpress.org/support/article/optimization/))
-
+<div class="w-table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="http://web.dev/fast/">Fast load times</a></td>
+        <td>Article in <a href="https://web.dev">web.dev</a> about guaranteeing that our sites load quickly.</td>
+      </tr>
+      <tr>
+        <td><a href="https://wordpress.org/support/article/optimization/">WordPress Optimization</a></td>
+        <td>Article in <a href="https://WordPress.org">WordPress.org</a>, providing a broad overview of WordPress optimization with specific recommended approaches.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 [collection]: /wordpress
