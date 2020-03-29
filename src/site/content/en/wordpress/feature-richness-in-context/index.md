@@ -101,7 +101,7 @@ Developing these experiences encompasses two areas:
       <tr>
         <td><b>Web platform capabilities</b></td>
         <td>
-          The are of web capabilities is encompassed by the Fugu and PWA.
+          This area is encompassed by the Fugu and PWA workstreams.
         </td>
       </tr>
       <tr>
