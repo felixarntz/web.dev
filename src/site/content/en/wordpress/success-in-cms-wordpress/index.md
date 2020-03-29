@@ -17,23 +17,29 @@ tags:
 ## Relevant Information Sources
 
 <div class="w-table-wrapper">
-  <table>https://wordpress.com/support/        
+  <table>
     <tbody>
       <tr>
-        <td><a href="">WordPress.org: Documentation</a></td>
-        <td>.</td>
+        <td><a href="https://codex.wordpress.org/">WordPress.org: Documentation</a></td>
+        <td>
+          Online manual and living repository for WordPress documentation.
+        </td>
       </tr>   
       <tr>
-        <td><a href="">WordPress.org: Support</a></td>
+        <td><a href="https://wordpress.com/support/">WordPress.org: Support</a></td>
+        <td>Entry point in WordPress.org to get help, examples, and educational information.</td>
+      </tr>
+      <tr>
+        <td><a href="">WordPress.org: Development</a></td>
         <td>.</td>
       </tr>
       <tr>
-        <td><a href="">WordPress.org: WordPress Development</a></td>
-        <td>.</td>
-      </tr>    
-      <tr>
-        <td><a href="https://www.thinkwithgoogle.com/intl/en-gb/advertising-channels/mobile/your-mobile-first-transformation-handbook/">Your Mobile-first Transformation Handbook</a></td>
-        <td>Handbook from <a href="https://www.thinkwithgoogle.com/">ThinkWithGoogle.com</a> about helping organisations that want to transform their mobile presence to benefit their users.</td>
+        <td>
+          <a href="https://wordpress.org/hosting/">WordPress.org: Hosting</a>
+        </td>
+        <td>
+          .
+        </td>
       </tr>
     </tbody>
   </table>
