@@ -39,7 +39,7 @@ module.exports = {
       },
       {
         title: "Content quality",
-        pathItems: ["content-quality-in-context"],
+        pathItems: ["content-quality-in-context", "storytelling-in-the-web"],
       },
       {
         title: "Monetization",
