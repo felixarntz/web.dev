@@ -39,6 +39,10 @@ In our previous [post](http://web.dev/success-on-the-web-in-context/) we discuss
 
 A key aspect of such user-first sites is the role of feature-rich and engaging experiences in enhancing our conversion funnels. In this post we discuss briefly how to approach the development of feature-rich and integrated websites and web applications.
 
+{% Aside 'objective' %}
+Feature richness and integration with the capabilities of the devices they run on, is an essential caharacteristic of user-first sites.
+{% endAside %}
+
 ## Global Audience
 
 The Open Web is the only platform that offers universal reach, as it is accessible on virtually any device our users may have. Over half of the world is now online. This means that: (1) the web gives us access to the largest possible market, and (2) there is great room for growth, as still about half the population yet to get online.

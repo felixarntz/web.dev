@@ -10,6 +10,7 @@ date: 2020-03-24
 tags:
   - post
   - cms
+  - performance
 ---
 Nikalus Wirth wrote a paper back in 1995 issuing a [Plea for Lean Software](https://dl.acm.org/doi/10.1109/2.348001). He starts by stating a fact that has remained true in the desktop world since then: Memory requirements of workstations typically jump substantially whenever there is a new software release. When demand surpasses capacity, it is time to buy add-on memory; when the system has no more extensibility it is time to buy a new, more powerful workstation.  And then he poses the question: Do increased performance and functionality keep pace with the increased demand for resources? Mostly the answer is no. Today, 25 years later, we have a seemingly completely different reality, but we still can observe a similar reality: attaining consistently high performance in the mobile web is challenging.
 
