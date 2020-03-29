@@ -82,7 +82,6 @@ This is the part where our voice, perspective, and the specific niche we are cre
 * Media
 * Web Stories
 
-
 ## Relevant Information Sources
 
 * Google's Search Quality guidelines
