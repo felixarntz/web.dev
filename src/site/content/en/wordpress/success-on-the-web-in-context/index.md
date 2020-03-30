@@ -15,7 +15,7 @@ tags:
 The WordPress project defines its mission as "democratizing publishing". Just like in real life, democratizing publishing must go hand-in-hand with the democratization of capabilities to do what is needed to have a fair shot at success. The good news is that the web platform has evolved in amazing ways during the last few years, supporting now a wide range of capabilities to implement successful content strategies.
 
 {% Aside %}
-Success is everyone's responsibility: developers, webmasters, ane decision makers. We all need to understsand the factors influencing the chances of achieving successfule content strategies in the web.
+Success is everyone's responsibility: developers, webmasters, ane decision makers. We all need to understsand the factors influencing the chances of achieving successful content strategies in the web.
 {% endAside %}
 
 ## What will you learn?
