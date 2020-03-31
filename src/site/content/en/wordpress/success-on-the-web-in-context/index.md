@@ -169,10 +169,10 @@ How do we go about nailing down the requirements for each *success factor* cost 
 ## Relevant Information Sources
 
 <div class="w-table-wrapper">
-  <table>https://wordpress.com/support/        
+  <table>
     <tbody>
       <tr>
-        <td><a href=""></a></td>
+        <td><a href="https://wordpress.com/support/"></a>WordPress.org: Support</td>
         <td>.</td>
       </tr>
     </tbody>

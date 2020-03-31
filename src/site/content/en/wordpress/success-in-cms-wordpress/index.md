@@ -24,7 +24,13 @@ tags:
         <td>
           Online manual and living repository for WordPress documentation.
         </td>
-      </tr>   
+      </tr>
+      <tr>
+        <td><a href="https://developer.wordpress.org/plugins/">WordPress.org: Plugin Handbook</a></td>
+        <td>
+          This is a resource for everything related to WordPress plugins. Whether you’re new to WordPress plugin development, or you’re an experienced plugin developer, you should be able to find the answer to many of your plugin-related questions right here..
+        </td>
+      </tr>
       <tr>
         <td><a href="https://wordpress.com/support/">WordPress.org: Support</a></td>
         <td>Entry point in WordPress.org to get help, examples, and educational information.</td>
