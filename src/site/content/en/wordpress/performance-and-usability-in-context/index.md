@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Performance in Context
+title: Performance in context
 hero: hero.jpg
 authors:
   - albertomedina

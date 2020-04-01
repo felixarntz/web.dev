@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Success on the Web in Context
+title: Success on the web in context
 authors:
   - albertomedina
 hero: hero.jpg

@@ -13,11 +13,21 @@ tags:
   - security
 ---
 
+## Security Mindset
+
+Elaborate the importance of having a Security Mindset: the Blueberry Muffin.
+
 ## Relevant Information Sources
 
 <div class="w-table-wrapper">
   <table>
     <tbody>
+      <tr>
+        <td><a href="https://developer.wordpress.org/themes/theme-security/">WordPress.org: Theme Security</a></td>
+        <td>
+        Information and guidance relevant and useful when developing themes and considering security aspects as functionality is added. 
+        </td>
+      </tr>
       <tr>
         <td><a href="https://developer.mozilla.org/en-US/docs/Web/Security">Web Security [MDN Web] Docs</a></td>
         <td>

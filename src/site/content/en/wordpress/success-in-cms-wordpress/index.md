@@ -5,7 +5,7 @@ authors:
   - albertomedina
 hero: hero.jpg
 subhead: |
-  Assembling User-first sites in WordPress.
+  Assembling user-first sites in WordPress.
 date: 2020-03-24
 tags:
   - post

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Feature Richness in Context
+title: Feature-richness in context
 authors:
   - albertomedina
 hero: hero.jpg

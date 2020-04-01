@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Storytelling in the Web
+title: Storytelling in the web
 hero: hero.jpg
 authors:
   - albertomedina

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Content Quality in Context
+title: Content quality in context
 hero: hero.jpg
 authors:
   - albertomedina
