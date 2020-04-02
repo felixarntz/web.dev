@@ -112,6 +112,10 @@ Users hate bad performance. A [recent survey](https://www.thinkwithgoogle.com/in
         <td><a href="https://wordpress.org/support/article/optimization/">WordPress Optimization</a></td>
         <td>Article in <a href="https://WordPress.org">WordPress.org</a>, providing a broad overview of WordPress optimization with specific recommended approaches.</td>
       </tr>
+      <tr>
+        <td><a href="https://pantheon.io/docs/performance">Pantheon Performance Guidance</a></td>
+        <td>Pantheon entry point to performance-related documentation and guidance.</td>
+      </tr>
     </tbody>
   </table>
 </div>

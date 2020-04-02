@@ -51,7 +51,20 @@ WordPress site owners can leverage caching mechanisms either via plugins install
 
 ## Relevant Information Sources
 
-* Caching article in WordPress.org ([link](https://wordpress.org/support/article/optimization-caching/))
+<div class="w-table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="https://wordpress.org/support/article/optimization-caching/">WordPress.org: Caching Optimization</a></td>
+        <td>WordPress.org documentation entry point to learning about Cache Optimization.</td>
+      </tr>
+      <tr>
+        <td><a href="https://pantheon.io/docs/videos/cache/">Pantheon: Caching Optimization</a></td>
+        <td>Pantheo's documentation on general caching and their caching services. .</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 
 [collection]: /wordpress
