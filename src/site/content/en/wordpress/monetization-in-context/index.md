@@ -5,7 +5,7 @@ hero: hero.jpg
 authors:
   - albertomedina
 subhead: |
-  Sustainable Success is all about ROI.
+  TODO: Add tagline here...
 date: 2020-03-24
 tags:
   - post
@@ -13,6 +13,6 @@ tags:
   - monetization
 ---
 
-This is the content of the article.
+TODO: Write content here...
 
 [collection]: /wordpress
