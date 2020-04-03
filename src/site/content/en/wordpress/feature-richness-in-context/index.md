@@ -15,7 +15,7 @@ tags:
   - capabilities
 ---
 
-In our previous [post](http://web.dev/success-on-the-web-in-context/) we discussed the correlation between building user-first sites, and our ability to attain sustainable success as content creators and publishers. User-first sites are sites that have the following qualities:
+In a previous [post](http://web.dev/success-on-the-web-in-context/) we discussed the correlation between building user-first sites, and our ability to attain sustainable success as content creators and publishers. User-first sites are sites that have the following qualities:
 
 <div class="w-table-wrapper">
   <table>
@@ -90,11 +90,11 @@ The good news are that the web platform has been evolving steadily and rapidly, 
 Please follow the links above to learn more about each of the workstreams and how together they describe the reality of the web just being another platform on which we can successfully develop and deploy our online business presence.
 {% endAside %}
 
-Two of these work areas are of interest when we seek to answer the question: how do we develop web sites that are feature rich and integrated when out target audience has global reach?: Fugu and PWA.
+All these work streams are related to what we can call "The Capable Web": a platform with unlimited reach, and with all the capabitlities needed for us to deliver great user experiences in our sites.
 
 ## Developing for the Web Platform
 
-The web platform today support pretty much everything provided by native app platforms. We can develop user experiences natively on the web that are feature-rich, engaging, and integrated with the devices from our users, while at the same time maintaining the core web tenets of openness, security, privacy, trust, and universal reach.
+The web platform supports pretty much everything supported by native app platforms. This means that we can develop native web user experiences that are feature-rich, engaging, and integrated with the devices from our users, while at the same time maintaining the core web tenets of openness, security, privacy, trust, and universal reach.
 
 {% Aside  %}
 Today, the web platform supports (pretty much) everything provided by native app platforms.
@@ -106,18 +106,65 @@ Developing these experiences encompasses two areas:
   <table>
     <tbody>
       <tr>
-        <td><b>Web platform capabilities</b></td>
-        <td>
-          This area is encompassed by the Fugu and PWA workstreams.
-        </td>
+        <td><b>User-first Mindset</b></td>
+        <td>When developing sites and web apps, we need to account for the universal reach of the web; we are developing for an universal audience, and that should be at the forefront of our decision process at evey step along the way.</td>
       </tr>
       <tr>
-        <td><b>User-first Mindset</b></td>
-        <td>TBD</td>
+        <td><b>Web platform capabilities</b></td>
+        <td>
+          Taking advantage of the capabilities This area is encompassed by the Fugu and PWA workstreams.
+        </td>
       </tr>
     </tbody>
   </table>
 </div>
+
+## User-first Mindset
+
+Developing for a global audience is challenging because:
+
+* Everyone uses the web differently and on different circumstances
+* Devices vary a lot: in terms of storage, CPU, memory
+* Networks vary a lot: in terms of capacity, reliability, availability
+* Users economic contexts vary a lot: high cost of data, incentive structures
+
+At the device level, the market is dominated by two main players: Android devices, and iOS devices.
+
+<figure class="w-figure">
+  <img src="./ios-vs-android-market-share.png"
+       alt="Android vs. iOS Global Market Share">
+  <figcaption class="w-figcaption">
+    Androis vs. iOS market share.
+  </figcaption>
+</figure>
+
+While there are "only" two main mobile OS types, there is a lot of fragmentation at all levels. And when developing on a platform with so much fragmentation we must incorporate key factors:
+
+<div class="w-table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td><b>Storage</b></td>
+        <td>There is a lot of variation in storage capabilities among devices. We must be aware that many devices are very storage-limited. For example, as many as <a href="https://goo.gl/LWchN5">33% of smartphone users in India run out of storage</a>.</td>
+      </tr>
+      <tr>
+        <td><b>Data costs</td>
+        <td>The costs of data plans vary a lot in a global audience, and we must be aware that for many users data costs are prohibitely expensive.</td>
+      </tr>
+      <tr>
+        <td><b>Memory</td>
+        <td>.</td>
+      </tr>
+      <tr>
+        <td><b>Connectivity</td>
+        <td>.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
 
 ## Fugu
 
