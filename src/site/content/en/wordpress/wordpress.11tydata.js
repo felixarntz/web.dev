@@ -26,15 +26,18 @@ module.exports = {
         ],
       },
       {
-        title: "Performance and usability",
+        title: "Performance",
         pathItems: [
           "performance-and-usability-in-context",
           "wordpress-caching",
         ],
       },
       {
-        title: "Feature-rich, engaging experiences",
-        pathItems: ["feature-richness-in-context"],
+        title: "Feature richness",
+        pathItems: [
+          "feature-richness-in-context",
+          "advanced-pwa-patterns-in-wordpress",
+        ],
       },
       {
         title: "Monitoring success",

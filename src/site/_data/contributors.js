@@ -940,9 +940,17 @@ const contributors = {
       given: "Demian",
       family: "Renzulli",
     },
+    org: {
+      name: "Google",
+      unit: "Mobile Solutions Consultant",
+    },
+    country: "US",
     twitter: "drenzulli",
     github: "demianrenzulli",
     glitch: "demianrenzulli",
+    description: {
+      en: "Mobile Solutions Consultant at Google",
+    },
   },
   taylorsavage: {
     name: {
