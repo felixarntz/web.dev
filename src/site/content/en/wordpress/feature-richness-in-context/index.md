@@ -5,7 +5,7 @@ authors:
   - albertomedina
 hero: hero.jpg
 subhead: |
-  TODO: Add tagline here...
+  TODO: Add tagline here…
 date: 2020-03-24
 tags:
   - post
@@ -15,6 +15,6 @@ tags:
   - capabilities
 ---
 
-TODO: Write content here...
+TODO: Write content here…
 
 [collection]: /wordpress

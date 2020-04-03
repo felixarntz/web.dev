@@ -5,7 +5,7 @@ hero: hero.jpg
 authors:
   - felixarntz
 subhead: |
-  TODO: Add tagline here...
+  TODO: Add tagline here…
 date: 2020-03-24
 tags:
   - post
@@ -13,6 +13,6 @@ tags:
   - analytics
 ---
 
-TODO: Write content here...
+TODO: Write content here…
 
 [collection]: /wordpress
