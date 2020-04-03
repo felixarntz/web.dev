@@ -23,8 +23,8 @@ module.exports = {
         pathItems: ["success-on-the-web-in-context"],
       },
       {
-        title: "Performance and usability",
-        pathItems: ["performance-and-usability-in-context"],
+        title: "Performance",
+        pathItems: ["performance-in-context"],
       },
       {
         title: "Feature-richness",
