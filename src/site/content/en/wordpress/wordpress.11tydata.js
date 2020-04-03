@@ -20,20 +20,14 @@ module.exports = {
     topics: [
       {
         title: "Success factors",
-        pathItems: [
-          "success-on-the-web-in-context",
-          "success-in-cms-wordpress",
-        ],
+        pathItems: ["success-on-the-web-in-context"],
       },
       {
         title: "Performance and usability",
-        pathItems: [
-          "performance-and-usability-in-context",
-          "wordpress-caching",
-        ],
+        pathItems: ["performance-and-usability-in-context"],
       },
       {
-        title: "Feature-rich, engaging experiences",
+        title: "Feature-richness",
         pathItems: ["feature-richness-in-context"],
       },
       {
@@ -42,7 +36,7 @@ module.exports = {
       },
       {
         title: "Content quality",
-        pathItems: ["content-quality-in-context", "storytelling-in-the-web"],
+        pathItems: ["content-quality-in-context"],
       },
       {
         title: "Monetization",
