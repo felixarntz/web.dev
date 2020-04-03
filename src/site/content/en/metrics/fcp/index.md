@@ -4,7 +4,7 @@ title: First Contentful Paint (FCP)
 authors:
   - philipwalton
 date: 2019-11-07
-updated: 2020-03-03
+updated: 2020-04-03
 description: |
   This post introduces the First Contentful Paint (FCP) metric and explains
   how to measure it
@@ -72,20 +72,26 @@ that listens for paint timing entries and logs the start time of the
 `first-contentful-paint` entry to the console:
 
 ```js
-// Create the Performance Observer instance.
-const observer = new PerformanceObserver((list) => {
-  for (const entry of list.getEntriesByName('first-contentful-paint')) {
-    // Log the value of FCP to the console.
-    console.log('FCP:', entry.startTime);
-    observer.disconnect();
-  }
-});
+// Catch errors since some browsers throw when using the new `type` option.
+// https://bugs.webkit.org/show_bug.cgi?id=209216
+try {
+  // Create the Performance Observer instance.
+  const observer = new PerformanceObserver((list) => {
+    for (const entry of list.getEntriesByName('first-contentful-paint')) {
+      // Log the value of FCP to the console.
+      console.log('FCP:', entry.startTime);
+      observer.disconnect();
+    }
+  });
 
-// Start observing paint entry types.
-observer.observe({
-  type: 'paint',
-  buffered: true,
-});
+  // Start observing paint entry types.
+  observer.observe({
+    type: 'paint',
+    buffered: true,
+  });
+} catch (e) {
+  // Do nothing if the browser doesn't support this API.
+}
 ```
 
 Note, in your own code, you'd likely replace the `console.log()` with code that

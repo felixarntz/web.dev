@@ -4,7 +4,7 @@ title: First Input Delay (FID)
 authors:
   - philipwalton
 date: 2019-11-07
-updated: 2020-03-03
+updated: 2020-04-03
 description: |
   This post introduces the First Input Delay (FID) metric and explains
   how to measure it
@@ -182,19 +182,25 @@ that listens for
 entries, calculates FID, and logs the value to the console:
 
 ```js
-// Create the Performance Observer instance.
-const observer = new PerformanceObserver((list) => {
-  for (const entry of list.getEntries()) {
-    const fid = entry.processingStart - entry.startTime;
-    console.log('FID:', fid);
-  }
-});
+// Catch errors since some browsers throw when using the new `type` option.
+// https://bugs.webkit.org/show_bug.cgi?id=209216
+try {
+  // Create the Performance Observer instance.
+  const observer = new PerformanceObserver((list) => {
+    for (const entry of list.getEntries()) {
+      const fid = entry.processingStart - entry.startTime;
+      console.log('FID:', fid);
+    }
+  });
 
-// Start observing first-input entries.
-observer.observe({
-  type: 'first-input',
-  buffered: true,
-});
+  // Start observing first-input entries.
+  observer.observe({
+    type: 'first-input',
+    buffered: true,
+  });
+} catch (e) {
+  // Do nothing if the browser doesn't support this API.
+}
 ```
 
 ### Analyzing and reporting on FID data

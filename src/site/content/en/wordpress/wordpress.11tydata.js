@@ -27,7 +27,7 @@ module.exports = {
         pathItems: ["performance-in-context"],
       },
       {
-        title: "Feature-richness",
+        title: "Feature richness",
         pathItems: ["feature-richness-in-context"],
       },
       {

@@ -2,7 +2,7 @@
 title: New capabilities status
 subhead: Web apps should be able to do anything native apps can. Google wants to make it possible for you to build and deliver apps on the open web that have never been possible before.
 date: 2018-11-12
-updated: 2020-03-13
+updated: 2020-04-03
 tags:
   - post
   - capabilities
@@ -203,7 +203,7 @@ latest version of Chrome, and in many cases other Chromium based browsers.
           amount of information, such as an unread count.<br/>
           <div class="w-aside w-aside--note">
           Despite a stable version of the spec shipping in Chrome 81, an origin
-          trial is running in Chrome 79 and Chrome 81 until Setempber 15, 2020.
+          trial is running in Chrome 79 and Chrome 81 until September 15, 2020.
           </div>
           <em>Updated March 16, 2020</em>
         </td>
