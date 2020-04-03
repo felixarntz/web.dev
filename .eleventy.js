@@ -25,8 +25,7 @@ const slugify = require('slugify');
 const componentsDir = 'src/site/_includes/components';
 const ArticleNavigation = require(`./${componentsDir}/ArticleNavigation`);
 const Aside = require(`./${componentsDir}/Aside`);
-const AssessmentCallout = require(`./${componentsDir}/AssessmentCallout`);
-const AssessmentHint = require(`./${componentsDir}/AssessmentHint`);
+const Assessment = require(`./${componentsDir}/Assessment`);
 const Author = require(`./${componentsDir}/Author`);
 const AuthorInfo = require(`./${componentsDir}/AuthorInfo`);
 const Banner = require(`./${componentsDir}/Banner`);
@@ -44,8 +43,6 @@ const Meta = require(`./${componentsDir}/Meta`);
 const PathCard = require(`./${componentsDir}/PathCard`);
 const PostCard = require(`./${componentsDir}/PostCard`);
 const SignPosts = require(`./${componentsDir}/SignPosts`);
-const Tab = require(`./${componentsDir}/Tab`);
-const Tabs = require(`./${componentsDir}/Tabs`);
 const Tooltip = require(`./${componentsDir}/Tooltip`);
 const YouTube = require(`./${componentsDir}/YouTube`);
 
@@ -80,6 +77,9 @@ const removeDrafts = require(`./${filtersDir}/remove-drafts`);
 const strip = require(`./${filtersDir}/strip`);
 const stripBlog = require(`./${filtersDir}/strip-blog`);
 const stripLanguage = require(`./${filtersDir}/strip-language`);
+
+const transformsDir = 'src/site/_transforms';
+const disableLazyLoad = require(`./${transformsDir}/disable-lazy-load`);
 
 const buildPartial = require('./src/site/_utils/build-partial');
 
@@ -141,6 +141,11 @@ module.exports = function(config) {
   );
 
   //----------------------------------------------------------------------------
+  // NON-11TY FILES TO WATCH
+  //----------------------------------------------------------------------------
+  config.addWatchTarget("./src/site/content/en/**/*.yml");
+
+  //----------------------------------------------------------------------------
   // COLLECTIONS
   //----------------------------------------------------------------------------
   config.addCollection('posts', postDescending);
@@ -189,8 +194,7 @@ module.exports = function(config) {
   //----------------------------------------------------------------------------
   config.addShortcode('ArticleNavigation', ArticleNavigation);
   config.addPairedShortcode('Aside', Aside);
-  config.addPairedShortcode('AssessmentCallout', AssessmentCallout);
-  config.addPairedShortcode('AssessmentHint', AssessmentHint);
+  config.addShortcode('Assessment', Assessment);
   config.addShortcode('Author', Author);
   config.addShortcode('AuthorInfo', AuthorInfo);
   config.addPairedShortcode('Banner', Banner);
@@ -209,8 +213,6 @@ module.exports = function(config) {
   config.addShortcode('PathCard', PathCard);
   config.addShortcode('PostCard', PostCard);
   config.addShortcode('SignPosts', SignPosts);
-  config.addPairedShortcode('Tab', Tab);
-  config.addPairedShortcode('Tabs', Tabs);
   config.addShortcode('Tooltip', Tooltip);
   config.addShortcode('YouTube', YouTube);
 
@@ -219,6 +221,13 @@ module.exports = function(config) {
   //----------------------------------------------------------------------------
   config.addNunjucksTag('Image', Image);
   config.addNunjucksTag('Figure', Figure);
+
+  //----------------------------------------------------------------------------
+  // TRANSFORMS
+  //----------------------------------------------------------------------------
+  if (process.env.PERCY) {
+    config.addTransform('disable-lazy-load', disableLazyLoad);
+  }
 
   // https://www.11ty.io/docs/config/#data-deep-merge
   config.setDataDeepMerge(true);

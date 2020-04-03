@@ -77,10 +77,12 @@ class Tabs extends BaseElement {
         break;
     }
 
+    // Need @click so tabs work on iOS Safari
     return html`
       <button
-        @focus="${this.onFocus}"
-        @keydown="${this.onKeydown}"
+        @click=${this.onFocus}
+        @focus=${this.onFocus}
+        @keydown=${this.onKeydown}
         class="web-tabs__tab gc-analytics-event"
         role="tab"
         aria-selected="false"
@@ -121,6 +123,7 @@ class Tabs extends BaseElement {
     if (!questions) {
       return;
     }
+
     for (const question of questions) {
       question.addEventListener("request-nav-to-next", this.nextTab);
     }
@@ -226,7 +229,7 @@ class Tabs extends BaseElement {
     if (!tabs[index]) {
       throw new RangeError("There is no tab at the specified index.");
     }
-    this.activeTab = index;
+    tabs[index].focus();
   }
 
   // If previous tab exists, make it active. If not, make last tab active.
