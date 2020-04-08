@@ -20,23 +20,37 @@ module.exports = {
     topics: [
       {
         title: "Success factors",
-        pathItems: ["success-on-the-web-in-context"],
+        pathItems: [
+          "success-on-the-web-in-context",
+          "the-wordpress-ecosystem",
+          "the-cms-space",
+        ],
       },
       {
         title: "Performance",
-        pathItems: ["performance-in-context"],
+        pathItems: ["performance-in-context", "amp-in-wordpress"],
       },
       {
         title: "Feature richness",
-        pathItems: ["feature-richness-in-context"],
+        pathItems: [
+          "feature-richness-in-context",
+          "pwa-building-blocks",
+          "baseline-pwa-patterns",
+          "advanced-pwa-patterns",
+        ],
       },
       {
-        title: "Monitoring success",
-        pathItems: ["monitoring-in-context"],
+        title: "Monitoring Success",
+        pathItems: [
+          "monitoring-in-context",
+          "state-of-wordpress",
+          "lighthouse-and-wordpress",
+          "monitoring-tools-in-wordpress",
+        ],
       },
       {
         title: "Content quality",
-        pathItems: ["content-quality-in-context"],
+        pathItems: ["content-quality-in-context", "storytelling-in-the-web"],
       },
       {
         title: "Monetization",

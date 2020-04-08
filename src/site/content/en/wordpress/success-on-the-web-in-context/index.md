@@ -5,12 +5,15 @@ authors:
   - albertomedina
 hero: hero.jpg
 subhead: |
-  TODO: Add tagline here…
+  Success on the web is all about sustainable content strategies.
 date: 2020-03-24
+updated: 2020-04-08
 tags:
   - post
   - cms
 ---
+
+{% Banner 'caution' %}Work in progress.{% endBanner %}
 
 TODO: Write content here…
 

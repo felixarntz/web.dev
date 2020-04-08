@@ -31,38 +31,6 @@ const contributors = {
       en: "Developer Relations Engineer at Google",
     },
   },
-  albertomedina: {
-    name: {
-      given: "Alberto",
-      family: "Medina",
-    },
-    org: {
-      name: "Google",
-      unit: "Developer Relations",
-    },
-    country: "US",
-    homepage: "https://medinathoughts.com",
-    twitter: "ialbmedina",
-    description: {
-      en: "Developer Relations Engineer at Google",
-    },
-  },
-  pascalbirchler: {
-    name: {
-      given: "Pascal",
-      family: "Birchler",
-    },
-    org: {
-      name: "Google",
-      unit: "Developer Relations",
-    },
-    country: "US",
-    homepage: "https://pascalbirchler.com/",
-    twitter: "swissspidy",
-    description: {
-      en: "Developer Relations Engineer at Google",
-    },
-  },
   pbakaus: {
     name: {
       given: "Paul",
@@ -145,6 +113,22 @@ const contributors = {
     description: {
       en:
         "Engineer @ Google working on web tooling: Headless Chrome, Puppeteer, Lighthouse",
+    },
+  },
+  pascalbirchler: {
+    name: {
+      given: "Pascal",
+      family: "Birchler",
+    },
+    org: {
+      name: "Google",
+      unit: "Developer Relations",
+    },
+    country: "CH",
+    homepage: "https://pascalbirchler.com/",
+    twitter: "swissspidy",
+    description: {
+      en: "Developer Relations Engineer at Google",
     },
   },
   bokan: {
@@ -884,6 +868,22 @@ const contributors = {
         "PJ is a Product Manager on the Chrome Web Platform team responsible for Chrome permissions, notifications, and progressive web apps.",
     },
   },
+  albertomedina: {
+    name: {
+      given: "Alberto",
+      family: "Medina",
+    },
+    org: {
+      name: "Google",
+      unit: "Developer Relations",
+    },
+    country: "US",
+    homepage: "https://medinathoughts.com",
+    twitter: "ialbmedina",
+    description: {
+      en: "Developer Relations Engineer at Google",
+    },
+  },
   developit: {
     name: {
       given: "Jason",
@@ -899,6 +899,21 @@ const contributors = {
     github: "developit",
     description: {
       en: "Jason is a Web DevRel focused on speed and the JS ecosystem.",
+    },
+  },
+  thierrymuller: {
+    name: {
+      given: "Thierry",
+      family: "Muller",
+    },
+    org: {
+      name: "Google",
+      unit: "Technical Program Manager",
+    },
+    country: "CH",
+    twitter: "tweetythierry",
+    description: {
+      en: "TPgM Engineer at Google",
     },
   },
   addyosmani: {
@@ -950,6 +965,22 @@ const contributors = {
     glitch: "demianrenzulli",
     description: {
       en: "Mobile Solutions Consultant at Google",
+    },
+  },
+  westonruter: {
+    name: {
+      given: "Weston",
+      family: "Ruter",
+    },
+    org: {
+      name: "Google",
+      unit: "Developer Relations",
+    },
+    country: "US",
+    homepage: "https://westonruter.com",
+    twitter: "westonruter",
+    description: {
+      en: "Developer Relations Engineer at Google",
     },
   },
   taylorsavage: {
