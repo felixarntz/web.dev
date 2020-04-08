@@ -7,6 +7,7 @@ description: >
   How to ensure that the core functionality of your website is always 
   available, accessible, secure, usable, discoverable, and fast.
 date: 2020-04-03
+updated: 2020-04-06
 hero: hero.jpg
 tags:
   - post
@@ -108,15 +109,6 @@ before they become major issues.
 
 See [Network reliability](/reliable/) for more guidance.
 
-{#
- # Note that web.dev has a content policy against mentioning
- # closed-source commercial services: https://web.dev/handbook/tooling-and-libraries/
- # In the interest of being helpful first and foremost to web developers who may be under
- # stress and don't have time to search for options, this page is relaxing that restriction.
- # We may need to revisit this decision depending on what kinds of community contributions
- # we see.
- #}
-
 ### Accessibility {: #accessibility }
 
 Focusing on accessibility is more important than ever because more people with a
@@ -142,7 +134,7 @@ everyone.
   audit](https://developers.google.com/web/tools/lighthouse#devtools) to catch
   common accessibility issues. The report also provides a list of manual checks
   that you can perform to improve the operability of your site. Note that an
-  Accessibility score of 100 does not mean that your site is accessible. There
+  Accessibility score of 100 does not guarantee that your site is accessible. There
   are many important issues that Lighthouse can't test for in an automated
   fashion so it's still important to do manual reviews. Other automated auditing
   tools include the [WAVE API](https://wave.webaim.org/api/) and the [AXE
@@ -215,7 +207,8 @@ possible.
 
 People are looking for critical health- and job-related information. It's
 important to ensure that your sites are discoverable by all search engines.
-Follow the official blogs of search engines for guidance and updates:
+The [Lighthouse SEO audits](/lighthouse-seo/) can help you detect basic problems.
+Follow the official blogs of search engines for the latest guidance and updates:
 [Google](https://webmasters.googleblog.com/),
 [Bing](https://blogs.bing.com/webmaster/),
 [Baidu](http://research.baidu.com/Blog),
@@ -271,12 +264,16 @@ performance impact of reduced bandwidth.
   is not 100% but the feature can be treated as a progressive enhancement. In
   other words, if a certain browser doesn't support native lazy-loading, the
   image should load as it normally does.
-* Consider disabling A/B testing and personalization. These are unprecedented
-  times, and data gathered during this time might not be useful depending on the
-  use case. A/B testing and personalization tools often require calls to external
-  libraries that block the main thread and therefore slow down page load time.
-  See [Critical Rendering Path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path)
-  to conceptually understand why freeing up the main thread is so important.
+* Check if your site has any A/B testing or personalization scripts that can be
+  loaded more asynchronously or if there's any non-critical functionality in the
+  scripts that can be disabled. A/B testing and personalization scripts usually
+  can't be loaded *completely* asynchronously because they need to run before
+  the page content loads, but there may be some opportunity to load parts of the
+  scripts more asynchronously. See [Critical Rendering Path][crp] to understand
+  the fundamental tradeoff between synchronous scripts (also known as
+  render-blocking scripts) in general and page load time, and then decide
+  whether you need to prioritize the render-blocking scripts over page load
+  time, or vice versa.
 * Third-party code constitutes [around half of all
   requests](https://almanac.httparchive.org/en/2019/third-parties) for most
   websites. Consider
@@ -296,3 +293,5 @@ See [Fast load times](/fast/) for more guidance.
 [Hero image](https://unsplash.com/photos/Q1p7bh3SHj8) by 
 [NASA](https://unsplash.com/@nasa) on
 [Unsplash](https://unsplash.com/s/photos/earth)
+
+[crp]: https://developers.google.com/web/fundamentals/performance/critical-rendering-path
