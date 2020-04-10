@@ -7,14 +7,11 @@ authors:
 subhead: |
   Improving your content strategy based on real data
 date: 2020-04-10
-updated: 2020-04-10
 tags:
   - post
   - cms
   - analytics
 ---
-
-{% Banner 'caution' %}Work in progress.{% endBanner %}
 
 As we have seen, being successful as a content creator on the web means being successful in each of the four phases of the [conversion funnel](/success-on-the-web-in-context/#conversion-funnels). We have also learned that several key pieces can lead to success in each of them, and one that encompasses all four phases is **website monitoring**.
 
@@ -23,11 +20,6 @@ Website monitoring is the measurement and collection of data that allows you to 
 {% endAside %}
 
 Monitoring is key to knowing whether your website is giving you the expected results, whether these are of monetary, popular or any other other nature. You need to analyze what your users expect to find on your website and where you can optimize your content strategy to better address these needs. Just as much as you should measure your success _and_ analyze your users' (and potential conversions') behavior in a non-digital business, you need to do the same for your website.
-
-<figure class="w-figure">
-  <img src="./how-to-reach-your-website-goals.png" alt="A woman thinking about how she can make money through her website">
-  <figcaption class="w-figcaption">How do you reach your website's goals?</figcaption>
-</figure>
 
 ## Types of monitoring
 
@@ -101,9 +93,32 @@ User acquisition and user retention map to the respective phase in the conversio
 
 However, successfully monitoring your users is far less trivial than monitoring your site itself; the reason for that is you need to know what you are monitoring against. And this is what we are going to focus on throughout the rest of this article.
 
-## Goals, objectives, CTAs
+## Goals and objectives
 
-TODO: Write content for this section.
+<figure class="w-figure">
+  <img src="./how-to-reach-your-website-goals.png" alt="A woman thinking about how she can make money through her website">
+  <figcaption class="w-figcaption">How do you reach your website's goals?</figcaption>
+</figure>
+
+So how do you define your monitoring strategy? On a high level, it must be based on your site's major **goals**: What do you want to accomplish with your website, why are you creating a website in the first place? Do you want to establish yourself as an expert in a certain topic? Do you want to sell goods online? Do you want to market yourself as an entertainer? These are just some examples.
+
+What most reasons for creating a website have in common is that, to be successful in the long term they need some way to generate revenue - that is unless they are purely related to e.g. a personal hobby and you are dedicated to maintain this project over a long time despite having no income from it. Earning money through your website could be one potential **objective** for your website: How can you achieve your goal? Immediately speaking about money here may sound a bit greedy when you first hear it, but more often than not, it is the case that without some sort of [monetization strategy](/monetization-in-context/) most website projects start lingering after a while because putting in the necessary effort for free will become challenging at least for the long term. Keep in mind though that your website may not necessarily be the centerpiece of this monetization strategy. For example, if you are an actor and intend for your website to be your portfolio, you are only going to benefit from your website indirectly, for example when you get offered a chance for another role based on what your site has to offer.
+
+{% Aside %}
+Identifying the high-level goals for your website and then setting applicable objectives for these goals are the foundational aspects for defining a successful monitoring strategy.
+{% endAside %}
+
+## CTAs and KPIs
+
+**CTAs (calls-to-action)** are specific tasks that users of your site need to perform to get you (or your organization) closer to achieving your goals and objectives. These tasks can be related to any phase of the conversion funnel. A common example for a CTA is a user purchasing a product on your site or subscribing to your newsletter. Both of these CTAs apply to what we would typically define as a conversion. However there are many more CTAs to define than only those that turn e.g. a visitor into a customer. While conversion is certainly the most important phase of the conversion funnel,  CTAs should be defined for each of the four phases. An example of a very basic CTA that applies to almost every website is for example a user finding your website in a search engine and clicking on the link to even get to your website. It is just as important though to consider these CTAs as well, in order to allow for the CTAs in the later phases to even surface.
+
+In order to measure the success of your CTAs you need to identify the relevant **KPIs (key performance indicators)**. These are the metrics which formalize your CTAs into numbers. KPIs should be scoped to a CTA as specifically as possible. For example, if your objective is to sell a certain product through your website, your user discovering that product and your user actually purchasing it should be two separate CTAs. As a KPI for the first CTA, you could for example measure the rate for how many of your site's users end up on that product's page; as a KPI for the second CTA, you could measure how many of the users on that page actually end up buying it. If you were to solely track the task of purchasing itself, you would never find out about a potential problem in your content strategy way ahead of that task.
+
+## Taking action based on metrics
+
+If your KPIs are well defined, you will find out over time which parts of your website and your intended user flow may need refinement to bring you closer to reaching your goals and objectives. This is one of the most important lessons when it comes to monitoring: The insights you gain are useless if they are not actionable. Connecting your site to an analytics platform just like that will provide you with numbers which show some very generic information about how many users browse your website, which pages they visit, and how they got there in the first place. However, these metrics are, if relevant at all, only a small segment of the KPIs that apply to your website's success. In order to monitor the right metrics, you need to specify KPIs and customize your analytics integration so that these metrics get tracked over time.
+
+With tracking for your KPIs in place, you will be able to gain the necessary insights to further refine your content strategy. Which parts of the intended user flow to reach your objectives are the bottleneck? After you have identified these areas, you can think about how the shortcomings can be eliminated. And after putting these changes in place, you should continue to monitor. You may sometimes find that your modified content strategy also leads to new or altered KPIs that need to be tracked from that point on. As mentioned before, website monitoring is an ongoing effort.
 
 {% Aside %}
 Your content strategy informs your monitoring strategy which informs your content strategy which informs your monitoring strategy which informs your content strategy… you get the gist.
