@@ -16,7 +16,7 @@ tags:
 
 {% Banner 'caution' %}Work in progress.{% endBanner %}
 
-As we have seen, being successful as a content creator on the web means being successful in each of the four phases of the [conversion funnel](https://web.dev/success-on-the-web-in-context/#conversion-funnels). We have also learned that several key pieces can lead to success in each of them, and one that encompasses all four phases is **website monitoring**.
+As we have seen, being successful as a content creator on the web means being successful in each of the four phases of the [conversion funnel](/success-on-the-web-in-context/#conversion-funnels). We have also learned that several key pieces can lead to success in each of them, and one that encompasses all four phases is **website monitoring**.
 
 {% Aside 'key-term' %}
 Website monitoring is the measurement and collection of data that allows you to make informed decisions on your content and technical strategy, based on the current behavior of your site and its users.
@@ -64,9 +64,9 @@ Succeeding in these categories requires technical implementation of best practic
   </table>
 </div>
 
-There are several tools available to monitor the above, most of which are universally applicable and not specific to your CMS. To provide some examples, for performance and accessibility you could use an online tool like [Lighthouse](), while for site reliability there are uptime services like [UptimeRobot](https://uptimerobot.com/). Monitoring website security is usually done via paid services, such as a dedicated platform or an integration with your hosting provider.
+There are several tools available to monitor the above, most of which are universally applicable and not specific to your CMS. To provide some examples, for performance and accessibility you could use an online tool like [Lighthouse](/lighthouse-and-wordpress/), while for site reliability there are uptime services like [UptimeRobot](https://uptimerobot.com/). Monitoring website security is usually done via paid services, such as a dedicated platform or an integration with your hosting provider.
 
-For each of the above pillars it is most important to consider them from the very beginning of your site's implementation and follow best practices. You can learn more about [performance](https://web.dev/performance-in-context/) and [security](https://web.dev/security-in-context/) specifically in the respective web.dev section.
+For each of the above pillars it is most important to consider them from the very beginning of your site's implementation and follow best practices. You can learn more about [performance](/performance-in-context/) and [security](/security-in-context/) specifically in the respective web.dev section.
 
 ### User monitoring
 
@@ -109,6 +109,6 @@ TODO: Write content for this section.
 Your content strategy informs your monitoring strategy which informs your content strategy which informs your monitoring strategy which informs your content strategy… you get the gist.
 {% endAside %}
 
-So now that we the baseline for knowing how to define our monitoring strategy, let's have a look at [the tools we can use to put our strategy into practice in WordPress](https://web.dev/monitoring-tools/).
+So now that we the baseline for knowing how to define our monitoring strategy, let's have a look at [the tools we can use to put our strategy into practice in WordPress](/monitoring-tools-in-wordpress/).
 
 [collection]: /wordpress
