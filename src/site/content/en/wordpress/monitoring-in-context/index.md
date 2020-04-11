@@ -15,7 +15,7 @@ tags:
 
 {% Banner 'caution' %}Work in progress.{% endBanner %}
 
-We [discussed](/success-on-the-web-in-context/) that sustainable success as a content creator on the web requires being successful on each of the four phases of the [conversion funnel](/success-on-the-web-in-context/#conversion-funnels). And we know that  technologies, products, and best practices are key pieces enabling success. One of those technological aspects, influencing all four phases, is **website monitoring**.
+As we [discussed](/success-on-the-web-in-context/), sustainable success as a content creator on the web requires being successful on each of the four phases of the [conversion funnel](/success-on-the-web-in-context/#conversion-funnels). And we know that technologies, products, and best practices are key pieces enabling the success factors at each stage of the conversion funnel. A very important technology aspect, influencing all four phases, is **website monitoring**.
 
 {% Aside 'key-term' %}
 Website monitoring is the measurement and collection of data that allows you to make informed decisions on your content and technical strategy, based on the current behavior of your site and its users.
