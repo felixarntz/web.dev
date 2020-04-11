@@ -13,6 +13,8 @@ tags:
   - analytics
 ---
 
+{% Banner 'caution' %}Work in progress.{% endBanner %}
+
 We [discussed](/success-on-the-web-in-context/) that sustainable success as a content creator on the web requires being successful on each of the four phases of the [conversion funnel](/success-on-the-web-in-context/#conversion-funnels). And we know that  technologies, products, and best practices are key pieces enabling success. One of those technological aspects, influencing all four phases, is **website monitoring**.
 
 {% Aside 'key-term' %}
@@ -23,7 +25,7 @@ Monitoring is key to knowing whether your website is yielding the expected resul
 
 ## Types of monitoring
 
-Monitoring itself is a broad term, and when it comes to your website, there are several pillars that you can (and should) be monitoring. One trait that all of these have in common is that monitoring should be happening continuously, throughout the entire lifecycle of your website. You should not track a certain metric for a few days and then stop once you are satisfied with the results.
+'Monitoring' is a broad term, encompassing a variety of areas. When it comes to our website, there are several aspects that we can (and should) be monitoring. One trait that all of these have in common is that monitoring should be happening continuously, throughout the entire lifecycle of your website. You should not track a certain metric for a few days and then stop once you are satisfied with the results.
 
 Each of the different monitoring pillars is either based on your site itself or how users behave on your site, so these are essentially the two types of website monitoring that can be differentiated between. For this article, we are going to have a brief look at both of them, and then focus closer on user monitoring.
 
