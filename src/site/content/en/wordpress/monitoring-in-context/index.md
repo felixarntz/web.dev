@@ -13,13 +13,13 @@ tags:
   - analytics
 ---
 
-As we have seen, being successful as a content creator on the web means being successful in each of the four phases of the [conversion funnel](/success-on-the-web-in-context/#conversion-funnels). We have also learned that several key pieces can lead to success in each of them, and one that encompasses all four phases is **website monitoring**.
+We [discussed](/success-on-the-web-in-context/) that sustainable success as a content creator on the web requires being successful on each of the four phases of the [conversion funnel](/success-on-the-web-in-context/#conversion-funnels). And we know that  technologies, products, and best practices are key pieces enabling success. One of those technological aspects, influencing all four phases, is **website monitoring**.
 
 {% Aside 'key-term' %}
 Website monitoring is the measurement and collection of data that allows you to make informed decisions on your content and technical strategy, based on the current behavior of your site and its users.
 {% endAside %}
 
-Monitoring is key to knowing whether your website is giving you the expected results, whether these are of monetary, popular or any other other nature. You need to analyze what your users expect to find on your website and where you can optimize your content strategy to better address these needs. Just as much as you should measure your success _and_ analyze your users' (and potential conversions') behavior in a non-digital business, you need to do the same for your website.
+Monitoring is key to knowing whether your website is yielding the expected results: revenue, popularity, or any other other. We need to measure and analyze what our users find on our websites and is their experience. With good measurements, we can understand better and optimize our content strategy to better address our users needs. 
 
 ## Types of monitoring
 
